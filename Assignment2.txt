@@ -1,0 +1,153 @@
+
+
+
+import java.util.Scanner;
+public class MyClass {
+
+	public static void main(String[] args)  {
+		
+		System.out.println("                               Sherlocked!\n");
+		System.out.println("Welcome Player Although you are gonna play as Sherlock Enter your Name for the records");
+		Scanner scan=new Scanner(System.in);
+		String name=scan.nextLine();
+		System.out.println("Hello "+name);
+		System.out.println("enter any alphabet and then press enter to continue");
+		Scanner scan1=new Scanner(System.in);
+		char blank=scan1.nextLine().charAt(0);
+		for(int i=0;i<=50;i++)
+			System.out.println("\n");
+		System.out.println("1.Ready\n2.Exit\nType the option no. you want select");
+		Scanner scan2=new Scanner(System.in);
+		int option=scan2.nextInt();
+		for(int i=0;i<=50;i++)
+			System.out.println("\n");
+		
+		if(option==1) {
+		  System.out.println("                   Chapter1-221B Baker Street");
+		  System.out.println("\n\tGeneral Instructions");
+		  System.out.println("\nYou are gonna Play as the High Functioning Sociopath Sherlock Holmes");
+		  System.out.println("All you need to do is to choose certain options that might solve the mystery");
+		  
+		  System.out.println("Write A to continue or X to end game ");
+		  Scanner scan3=new Scanner(System.in);
+			char blank1=scan3.nextLine().charAt(0);
+			for(int i=0;i<=50;i++)
+				System.out.println("\n");
+			switch (blank1) {
+			case 'A':
+			{ System.out.println("\nLet's Start \nA Women Well dressed looking to be Rich Enters the House 221B Baker Street Sobbing");
+		  System.out.println("Sherlock is sitting in his spot with something Engaging his mind palace");
+		  System.out.println("Sherlock listening to the sound notices the women");
+		  System.out.println("Women tells him about the murder of his husband that occured on Sunday ");
+		  System.out.println(" Sherlock follows the women to her house");
+		  System.out.println(" Sherlock questions the wife and the staff, and here are given the following alibis: the wife says she was sleeping,\n the butler was cleaning the closet, the gardener was picking vegetables,\n the maid was getting the mail, and the cook was preparing breakfast\n Immediately, Sherlock asks the police to arrest the murderer. ");
+		  System.out.println("Who was the murder\n1.Wife\n2.Butler\n3.Gardener\n4.Maid\n5.Cook");
+		  Scanner scan4=new Scanner(System.in);
+		  int murderer=scan4.nextInt();
+		  if(murderer==4)
+			  {System.out.println("Sherlock-The maid said she was collecting mail but it was sunday so no mail could have come\nThus she is the murderer");
+		      System.out.println("Policeman-Sherlock you are genius");
+		      System.out.println("Write A to continue or X to end game ");
+		      Scanner scan5=new Scanner(System.in);
+				char blank2=scan5.nextLine().charAt(0);
+				for(int i=0;i<=50;i++)
+					System.out.println("\n");
+				switch (blank2) {
+				case 'A':
+				{System.out.println("\t\tChapter 2-Mycroft's Challenge");
+				  System.out.println("Mycroft comes to Sherlock\nMycroft-You KnowI have been the smart one but.....this time I need your help in a case  ");
+				  System.out.println("Sherlock-Ah!  you finally agreed (Sherlock smiles) where to \n Mycroft-Greenwitch");
+				  System.out.println("Policeman explaines the case to Sherlock ");
+			     System.out.println("There are five people. One of them shot and killed by one of the other five.");
+			     System.out.println("1. Dan ran in the NY City marathon yesterday with one of the innocent men.");
+			     System.out.println("2. Mike considered being a farmer before he moved to the city. \r\n" + 
+			     		"3. Jeff is a topnotch computer consultant and wants to install Ben's new computer next week.\r\n" + 
+			     		"4. The murderer had his leg amputated last month.\r\n" + 
+			     		"5. Ben met Jack for the first time six months ago.\r\n" + 
+			     		"6. Jack has been in seclusion since the crime.\r\n" + 
+			     		"7. Dan used to drink heavily.\r\n" + 
+			     		"8. Ben and Jeff built their last computers together.\r\n" + 
+			     		"9. The murderer is Jack's brother. They grew up together in Seattle.");
+			     System.out.println("Who is the Killer\n1. Dan\n2. Mike\n3. Jeff\n4. Ben\n5. Jack");
+			     Scanner scan6=new Scanner(System.in);
+					int option1=scan6.nextInt();
+					if(option1==3)
+					{System.out.println("Mycroft-But How\nSherlock:\nJeff Killed Mike\r\n" + 
+							"\r\n" + 
+							"1. Jack is not the murderer, because he is the brother of the murderer. \r\n" + 
+							"2. Dan can't be the murderer since he ran a marathon, and the murderer recently had his leg amputated, and wouldn't be running a marathon of any magnitude that quickly.\r\n" + 
+							"3. Ben is not the murderer if he just met Jack, since Jack and the murderer grew up together. \r\n" + 
+							"4. This leaves Jeff and Mike. \r\n" + 
+							"\r\n" + 
+							"Since Jeff is still alive (he wants to install a new computer next week, present tense) he must be the murderer.\n Mike also didn't grow up with Jack. It has been determined that Jack, Dan and Jeff are all alive.\n Ben must also be alive since Jeff plans to install Ben's computer next week. This means that Jeff killed Mike.");
+			        System.out.println("Mycroft-Sherlock I must say you certainly are a genius but not more than me :P");
+			        System.out.println("Write A to continue or X to end game ");
+				      Scanner scan7=new Scanner(System.in);
+						char blank3=scan7.nextLine().charAt(0);
+						for(int i=0;i<=50;i++)
+							System.out.println("\n");
+						switch(blank3) {
+						case 'A':{System.out.println("\t\tChapter 3-The Final Chapter");
+						System.out.println("\nSherlock-I am out of cases I need some case really quick Watson\nWatson-let me check my vlog i might have got some suggestions and....(scrolling throgh pages)there you go");
+						System.out.println("Watson-A middle aged man found dead on his office desk\nSherlock-let's go to the crime scene");
+						System.out.println("Sherlock after certain investigation narrowed down the victim's to 3 the were\n1. His Friend Moriarity \r\n" + 
+								"2. Victim's wife \"Rose\" \r\n" + 
+								"3. His Secretary \"Jason\"\r\n" + 
+								"\r\n" + 
+								"All three suspects visited the victim on the day of his murder for various reason as they told to sherlock.\r\n" + 
+								"\r\n" + 
+								"As we know police failed\n Also at the crime scene Sherlock was able to find a note at the corner of the wall. \"7B91011\" was written on it.\n Who is The Killer??");
+						Scanner scan8=new Scanner(System.in);
+						int option2=scan8.nextInt();
+						if(option2==3) {System.out.println("That was quiet an easy one Watson\nWatson-But How\nSherlock:Jason\r\n" + 
+								"\r\n" + 
+								"The number on the calendar was written in a hurry.I just matched the written number with the months of the year. \r\n" + 
+								"So the B was an 8, thereby giving us 7-8-9-10-11: July, August, September, October, November. \r\n" + 
+								"\r\n" + 
+								"Using the first letter of each month and it spells J-A-S-O-N.");
+						System.out.println("Watson smiles and they both walk back to Baker Street open to all the cases Ahead.......\nYou Won "+name+"\nyou are surely a genius just like sherlock Congrats");
+						}
+						else
+							{System.out.println("Sherlock-you don't feel the fear of falling untill you see the ground\n Imight have failed but this is not my end");
+						    System.out.println("You Lost "+name);}
+						break;
+						}
+						
+					case 'X':
+					{System.out.println("I was Afraid to go on :(");
+		        	System.exit(0);
+		        	break;}}
+				           }
+					else 
+					{System.out.println("Mycroft-You Lost Sherlock I am more Intelligent than you I solved this case beforehand and you are wrong");
+					System.out.println("Sherlock-Sorry! I am still catching up with my brain it's pretty fast give me some time to rest\nYou Lost "+name);
+					
+					}break;
+			     
+			   
+				
+				}
+				case 'X':
+				{System.out.println("I was Afraid to go on :(");
+	        	System.exit(0);
+	        	break;}}
+	            }
+		  else if(murderer==1||murderer==2||murderer==3||murderer==5)
+			  System.out.println("Sherlock-Get Out I need to go to my Mind palace\n You lost "+name);
+		 
+		
+		  else 
+			  System.out.print("please input only from 1-5" );
+			break;} 
+			case 'X':
+			{System.out.println("I was Afraid to go on :(");
+        	System.exit(0);
+        	break;}}
+			}
+		else if(option==2) {
+        	System.out.println("I was Afraid to go on :(");
+        	System.exit(0);}
+        	else
+        		System.out.println("Enter only from the given options");
+         }
+}
